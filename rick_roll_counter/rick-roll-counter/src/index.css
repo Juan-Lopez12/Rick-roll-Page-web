@@ -126,6 +126,8 @@
 
 .player {
 	grid-area: player;
+	height: 315px;
+	width: 560px;
 	width: 100%;
 }
 
@@ -207,4 +209,15 @@
 
 .outpulser:focus {
 	outline: none;
+}
+
+@media (min-width: 1536px) {
+	.player {
+		height: 365px;
+		width: 660px;
+	}
+
+	.doge {
+		max-height: 350px;
+	}
 }
